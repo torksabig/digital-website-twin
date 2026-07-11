@@ -1,0 +1,1306 @@
+{
+  "generatedAt": "2026-07-09T23:45:39.711Z",
+  "summary": {
+    "total": 237,
+    "buckets": {
+      "skip": 47,
+      "operator": 69,
+      "quantum_bridge": 0,
+      "other": 121
+    },
+    "topOperator": [
+      {
+        "keyword": "physics ai",
+        "volume": 6600,
+        "source": "Keyword Research (4).csv",
+        "bucket": "operator",
+        "score": 50
+      },
+      {
+        "keyword": "autonomous ai agent",
+        "volume": 5400,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 90
+      },
+      {
+        "keyword": "autonomous ai agents",
+        "volume": 5400,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 90
+      },
+      {
+        "keyword": "electricity grid",
+        "volume": 5400,
+        "source": "Keyword Research (5).csv",
+        "bucket": "operator",
+        "score": 50
+      },
+      {
+        "keyword": "autonomous ai",
+        "volume": 1900,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 59
+      },
+      {
+        "keyword": "electricity power grid",
+        "volume": 390,
+        "source": "Keyword Research (5).csv",
+        "bucket": "operator",
+        "score": 43.9
+      },
+      {
+        "keyword": "power grid electricity",
+        "volume": 390,
+        "source": "Keyword Research (5).csv",
+        "bucket": "operator",
+        "score": 43.9
+      },
+      {
+        "keyword": "energy optimization",
+        "volume": 320,
+        "source": "Keyword Research (6).csv",
+        "bucket": "operator",
+        "score": 43.2
+      },
+      {
+        "keyword": "autonomous ai systems",
+        "volume": 210,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 42.1
+      },
+      {
+        "keyword": "autonomous ai assistant",
+        "volume": 90,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 40.9
+      },
+      {
+        "keyword": "what is autonomous ai",
+        "volume": 90,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 40.9
+      },
+      {
+        "keyword": "how to build an autonomous ai agent",
+        "volume": 70,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 40.7
+      },
+      {
+        "keyword": "best autonomous ai agents",
+        "volume": 70,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 40.7
+      },
+      {
+        "keyword": "optimization energy",
+        "volume": 70,
+        "source": "Keyword Research (6).csv",
+        "bucket": "operator",
+        "score": 40.7
+      },
+      {
+        "keyword": "which capability is focused on autonomous ai agents",
+        "volume": 50,
+        "source": "Keyword Research (1).csv",
+        "bucket": "operator",
+        "score": 40.5
+      }
+    ]
+  },
+  "keywords": [
+    {
+      "keyword": "autonomous ai agent",
+      "volume": 5400,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai agents",
+      "volume": 5400,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai desk",
+      "volume": 4400,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai software engineer",
+      "volume": 2400,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai",
+      "volume": 1900,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous driving ai",
+      "volume": 880,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous cars ai",
+      "volume": 880,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous car ai",
+      "volume": 880,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai systems",
+      "volume": 210,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous",
+      "volume": 210,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai chair",
+      "volume": 210,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous cars",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai for autonomous vehicles",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai in autonomous vehicles",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai and autonomous vehicles",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai in autonomous vehicle",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous agents ai",
+      "volume": 140,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "kosmos: an ai scientist for autonomous discovery",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous weapons ai",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous weapons",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "oracle autonomous ai database",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous vehicles ai",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai in autonomous cars",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous vehicles",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous vehicle ai",
+      "volume": 110,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai assistant",
+      "volume": 90,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "what is autonomous ai",
+      "volume": 90,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "oracle autonomous ai lakehouse",
+      "volume": 70,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "how to build an autonomous ai agent",
+      "volume": 70,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous agents",
+      "volume": 70,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "best autonomous ai agents",
+      "volume": 70,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai standing desk",
+      "volume": 70,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "which capability is focused on autonomous ai agents",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai-researcher: autonomous scientific innovation",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "is ai autonomous",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous in ai",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "what are autonomous ai agents",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous agentic ai",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai coupon code",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai discount codes",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai promo code",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai discount code",
+      "volume": 50,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous agents in ai",
+      "volume": 40,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai definition",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous ai meaning",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai powered autonomous drones",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai autonomous driving",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "do autonomous vehicles use ai",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "spatialagent: an autonomous ai agent for spatial biology",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "autonomous meaning in ai",
+      "volume": 30,
+      "source": "Keyword Research (1).csv"
+    },
+    {
+      "keyword": "ai in ev charging",
+      "volume": 10,
+      "source": "Keyword Research (2).csv"
+    },
+    {
+      "keyword": "ai ev charging",
+      "volume": 10,
+      "source": "Keyword Research (2).csv"
+    },
+    {
+      "keyword": "ev ai",
+      "volume": 40,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev ganin ai",
+      "volume": 30,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai ev",
+      "volume": 20,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai ev stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai in ev",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai and ev",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev and ai stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai and ev stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev ai stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai penny stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "best ev solar and ai stocks in india",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai company",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai shares list in india",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "tesla ai ev outlook earnings",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar and ai stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai share price",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "best ev and ai stocks",
+      "volume": 10,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai shares",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "apple ev ai",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai stocks india",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai shares list",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai solar ev shares",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai mutual fund",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai share price target 2025",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai related stocks in india",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar ai share",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev solar and ai stocks in india",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "mirae asset ev and ai fund",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "mirae ev and ai fund",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ev and ai etf",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "ai sports watch herner ev",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "work function of ai is 4.2 ev",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "work function of ai is 4 2 ev",
+      "volume": 0,
+      "source": "Keyword Research (3).csv"
+    },
+    {
+      "keyword": "physics ai",
+      "volume": 6600,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai solver",
+      "volume": 1600,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai physics solver",
+      "volume": 590,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "best ai for physics",
+      "volume": 480,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai physics",
+      "volume": 390,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai for physics",
+      "volume": 320,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics solving ai",
+      "volume": 260,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics solver ai",
+      "volume": 260,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "best ai for physics problems",
+      "volume": 260,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "best physics ai",
+      "volume": 170,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai jiggle physics",
+      "volume": 140,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics help ai",
+      "volume": 140,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "easemate ai physics solver",
+      "volume": 110,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics-informed ai",
+      "volume": 90,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics informed ai",
+      "volume": 90,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai problem solver",
+      "volume": 90,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "notegpt ai physics solver",
+      "volume": 70,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "altair physics ai",
+      "volume": 70,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai help",
+      "volume": 70,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai in physics",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai calculator",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai tutor",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai free",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics homework ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics hw ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics problem solving ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics problems solver ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics problem solver ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics problem-solving ai",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "best ai for math and physics",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "best physics ai solver",
+      "volume": 50,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "julius ai physics solver",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai discovers new physics",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics of ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics and ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ap physics ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai and physics",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics-based ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics based ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics calculator ai",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai chat",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai chatbot",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai solver free",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "what ai is best for physics",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai physics tutor",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai for physics problems",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "ai physics solver free",
+      "volume": 40,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics x ai",
+      "volume": 30,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "genesis ai physics",
+      "volume": 30,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "physics ai altair",
+      "volume": 30,
+      "source": "Keyword Research (4).csv"
+    },
+    {
+      "keyword": "electricity grid",
+      "volume": 5400,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity-grid",
+      "volume": 5400,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "texas electricity grid",
+      "volume": 3600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid for electricity",
+      "volume": 3600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity national grid",
+      "volume": 3600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity",
+      "volume": 3600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "smart electricity grid",
+      "volume": 2900,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity grid us",
+      "volume": 2400,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "us electricity grid",
+      "volume": 2400,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "what is a electricity grid",
+      "volume": 1900,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "what is grid electricity",
+      "volume": 1900,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "what is electricity grid",
+      "volume": 1900,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "what is grid in electricity",
+      "volume": 1900,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off grid electricity system",
+      "volume": 1600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off grid electricity systems",
+      "volume": 1600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off-grid electricity systems",
+      "volume": 1600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off the grid electricity systems",
+      "volume": 1600,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "map of electricity grid",
+      "volume": 1300,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity grid maps",
+      "volume": 1300,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity grid map",
+      "volume": 1300,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid massachusetts electricity",
+      "volume": 1300,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity ma",
+      "volume": 1300,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "us electricity grid map",
+      "volume": 1000,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "grid electricity storage",
+      "volume": 1000,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off the grid electricity solutions",
+      "volume": 880,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "the grid electricity",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid contact number electricity",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity phone number",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity contact number",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity off the grid",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off the grid electricity",
+      "volume": 720,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "puerto rico electricity grid",
+      "volume": 590,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "grid electricity",
+      "volume": 590,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity login",
+      "volume": 590,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity pay bill",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "how does the electricity grid work",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity price",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity rates",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "national grid electricity rate",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off grid electricity generation",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "generating electricity off the grid",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off grid electricity generator",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off-grid electricity generation",
+      "volume": 480,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity power grid",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity from the grid",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity from grid",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "power grid electricity",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "grid in electricity",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "off grid solar electricity",
+      "volume": 390,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "electricity grid meaning",
+      "volume": 320,
+      "source": "Keyword Research (5).csv"
+    },
+    {
+      "keyword": "energy optimization",
+      "volume": 320,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization energy",
+      "volume": 70,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization services",
+      "volume": 30,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "hvac energy optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy efficiency optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "what is energy optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization solutions",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "building energy optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization in buildings",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy systems optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy system optimization",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization of energy system",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization of energy systems",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization software",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization companies",
+      "volume": 20,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy-efficient uav communication with trajectory optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy management and optimization system",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization model",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "home energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization system",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy systems optimization modeling simulation and economic aspects",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy efficient uav communication with trajectory optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization of energy systems pdf",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy and process optimization for the process industries",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy management and optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization meaning",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy consumption optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy storage optimization software",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization google tv",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization study",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization icon",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "honeywell forge energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "android tv energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "google tv energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization jobs",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "grid energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization of energy consumption",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "end-to-end stochastic optimization with energy-based model",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy systems-optimization modeling simulation and economic aspects",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy management optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization rebates",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "machine learning energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "ai for renewable energy optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "design and optimization of energy systems",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "optimization of energy",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy storage optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "wärtsilä energy storage & optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization android tv",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy optimization models",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    },
+    {
+      "keyword": "energy portfolio optimization",
+      "volume": 10,
+      "source": "Keyword Research (6).csv"
+    }
+  ]
+}

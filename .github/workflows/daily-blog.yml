@@ -1,0 +1,49 @@
+name: Daily blog post
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate daily blog post
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          KEYWORD_CSV_DIR: ${{ github.workspace }}/scripts/data/keyword-csv
+        run: npm run blog:generate
+
+      - name: Verify build with new post
+        run: npm run build
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(blog): add daily generated post"
+          title: "Daily blog post (${{ github.run_id }})"
+          body: |
+            Automated daily blog post from `scripts/generate-daily-blog.mjs`.
+
+            Review copy for accuracy before merge. Cloudflare deploy runs after merge to `main`.
+          branch: automation/daily-blog-${{ github.run_id }}
+          delete-branch: true

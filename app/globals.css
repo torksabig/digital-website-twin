@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-serif), Georgia, "Times New Roman", serif;
+
+  --color-ink: #0a1015;
+  --color-paper: #f7f8fa;
+  --color-blog-paper: #f7f7f4;
+  --color-blog-border: #e4e0dd;
+  --color-blue-900: #103e66;
+  --color-blue-200: #c5dffb;
+
+  --shadow-card: 0 0.6px 0.6px -1.25px rgba(10, 15, 21, 0.17),
+    0 2.29px 2.29px -2.5px rgba(10, 15, 21, 0.15),
+    0 10px 10px -3.75px rgba(10, 15, 21, 0.06);
+  --shadow-raised: 0 6px 16px -3px rgba(14, 23, 30, 0.2);
+}
+
+:root {
+  color-scheme: dark;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display headings: PT Serif (editorial serif, matches AI Supply template) */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.005em;
+  font-weight: 400;
+}
+
+/* Hero brand gradient, deep navy with centered blue glow + vertical light streaks */
+.hero-gradient {
+  background-color: #05080c;
+  background-image:
+    radial-gradient(120% 90% at 50% 0%, rgba(40, 96, 158, 0.55) 0%, rgba(16, 62, 102, 0.25) 35%, rgba(5, 8, 12, 0) 70%),
+    linear-gradient(180deg, #0a1622 0%, #05080c 100%);
+}
+.hero-streaks {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.035) 0px,
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1px,
+    transparent 220px
+  );
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+
+/* Card hover lift, Framer-style micro-interaction */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+  will-change: transform;
+}
+.hover-lift:hover {
+  transform: translateY(-5px);
+}
+
+/* Ambient hero glow pulse */
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+.hero-glow {
+  animation: glowPulse 7s ease-in-out infinite;
+}
+
+/* On-load entrance for hero elements */
+@keyframes appearUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.appear {
+  opacity: 0;
+  animation: appearUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.appear-delay-1 { animation-delay: 0.05s; }
+.appear-delay-2 { animation-delay: 0.15s; }
+.appear-delay-3 { animation-delay: 0.28s; }
+.appear-delay-4 { animation-delay: 0.4s; }
+.appear-delay-5 { animation-delay: 0.5s; }
+@media (prefers-reduced-motion: reduce) {
+  .hover-lift, .appear, .hero-glow, .animate-marquee { animation: none; transition: none; transform: none; }
+  .appear { opacity: 1; }
+}
+
+/* Editorial blog prose — Parley-inspired spacing */
+.blog-prose {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.blog-prose-section + .blog-prose-section {
+  padding-top: 0.5rem;
+}

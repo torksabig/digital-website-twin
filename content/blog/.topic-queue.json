@@ -1,0 +1,47 @@
+{
+  "keywords": [
+    {
+      "keyword": "energy optimization",
+      "priority": 1
+    },
+    {
+      "keyword": "autonomous ai systems",
+      "priority": 2
+    },
+    {
+      "keyword": "ai in ev charging",
+      "priority": 3
+    },
+    {
+      "keyword": "ev ai",
+      "priority": 4
+    },
+    {
+      "keyword": "power grid electricity",
+      "priority": 5
+    },
+    {
+      "keyword": "electricity power grid",
+      "priority": 6
+    },
+    {
+      "keyword": "what is autonomous ai",
+      "priority": 7
+    },
+    {
+      "keyword": "quantum ai software",
+      "priority": 8
+    },
+    {
+      "keyword": "quantum ai safety",
+      "priority": 9
+    },
+    {
+      "keyword": "quantum ai governance",
+      "priority": 10
+    }
+  ],
+  "usedSlugs": [
+    "energy-optimization-for-operators"
+  ]
+}

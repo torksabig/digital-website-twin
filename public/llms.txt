@@ -1,0 +1,38 @@
+# Aether Applied
+
+> Qorina is decision software for buildings, grids, and fleets. Act when safe, wait when unsure, call a human when needed.
+
+## About
+
+Aether Applied is a Helsinki-based deep tech company building Qorina: calibrated decision software for physical systems. Qorina helps operators automate safely by knowing when not to act.
+
+## Primary pages
+
+- Home: https://aetherapplied.com/
+- Product: https://aetherapplied.com/qorina/
+- Learn hub: https://aetherapplied.com/learn/
+- Proof hub: https://aetherapplied.com/proof/
+- Use cases: https://aetherapplied.com/use-cases/
+- About: https://aetherapplied.com/about/
+- Contact: https://aetherapplied.com/contact/
+- Blog: https://aetherapplied.com/blog/
+
+## Learn articles
+
+- What is quantum AI: https://aetherapplied.com/learn/what-is-quantum-ai/
+- AI uncertainty in critical systems: https://aetherapplied.com/learn/ai-uncertainty-critical-systems/
+
+## Proof pages
+
+- 36-qubit QPU: https://aetherapplied.com/proof/36-qubit-qpu/
+- Building the autonomy loop: https://aetherapplied.com/proof/building-autonomy-loop/
+
+## Contact
+
+Book a call or send a message: https://aetherapplied.com/contact/
+
+## Organization
+
+- Name: Aether Applied
+- Location: Helsinki, Finland
+- LinkedIn: https://fi.linkedin.com/company/aetherapplied

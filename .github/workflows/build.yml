@@ -1,0 +1,28 @@
+name: build
+
+# Verifies the Next.js static export compiles, and publishes ./out as a downloadable artifact.
+# Deployment itself is handled by Cloudflare (build command `next build`, output dir `out`),
+# which the repo is configured for (see wrangler.toml / next.config.mjs).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: static-export
+          path: out
+          if-no-files-found: error
