@@ -7,6 +7,12 @@
 name = "digital-website-twin"
 compatibility_date = "2024-11-01"
 
+# Route: digital.buildoutloud.net/* → this worker (configure in dashboard or uncomment routes below)
+# Dashboard: Workers & Pages → digital-website-twin → Settings → Domains & Routes
+# [[routes]]
+# pattern = "digital.buildoutloud.net/*"
+# zone_name = "buildoutloud.net"
+
 [build]
 command = "npx next build"
 

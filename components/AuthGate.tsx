@@ -8,6 +8,8 @@ function isLoginPath(pathname: string): boolean {
   return pathname === "/login" || pathname === "/login/";
 }
 
+const authGateDisabled = process.env.NEXT_PUBLIC_DISABLE_AUTH_GATE === "true";
+
 export function AuthGate({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -15,6 +17,8 @@ export function AuthGate({ children }: { children: ReactNode }) {
   const [allowed, setAllowed] = useState(false);
 
   useEffect(() => {
+    if (authGateDisabled) return;
+
     if (isLoginPath(pathname)) {
       setAllowed(true);
       setReady(true);
@@ -30,6 +34,10 @@ export function AuthGate({ children }: { children: ReactNode }) {
     const redirect = pathname === "/" ? "" : `?redirect=${encodeURIComponent(pathname)}`;
     router.replace(`/login${redirect}`);
   }, [pathname, router]);
+
+  if (authGateDisabled) {
+    return <>{children}</>;
+  }
 
   if (isLoginPath(pathname)) {
     return <>{children}</>;

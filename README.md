@@ -2,6 +2,7 @@
 
 Digital twin (mirror) of the [Aether Applied](https://aetherapplied.com) marketing website. Use this copy for experimentation, staging previews, backups, or development without touching production.
 
+**Twin URL (pending route setup):** https://digital.buildoutloud.net  
 **Source of truth for live site:** `web-tools/aether-applied-website` in the MAIN AI workspace (or production deploy from that project).
 
 ## Quick start
@@ -33,7 +34,13 @@ echo 'NEXT_PUBLIC_SITE_PASSWORD=1234567890' >> .env.local
 npm run build
 ```
 
-**Security note:** With `output: "export"`, credentials are embedded in the client bundle at build time. This is suitable for staging/twin demos only — not production security. For stronger protection on Cloudflare Pages, use [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/) in front of the deployment.
+**Security note:** With `output: "export"`, credentials are embedded in the client bundle at build time. This is suitable for local demos only — not production security. For the deployed twin at `digital.buildoutloud.net`, use [Cloudflare Access](docs/CLOUDFLARE_ACCESS.md) and disable the client gate:
+
+```bash
+NEXT_PUBLIC_DISABLE_AUTH_GATE=true npm run build
+```
+
+See [docs/CLOUDFLARE_ACCESS.md](docs/CLOUDFLARE_ACCESS.md) for DNS, worker route, and Zero Trust setup.
 
 ## Notes
 
