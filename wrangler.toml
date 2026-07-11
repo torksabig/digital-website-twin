@@ -13,6 +13,21 @@ compatibility_date = "2024-11-01"
 pattern = "digital.buildoutloud.net/*"
 zone_name = "buildoutloud.net"
 
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
+
 [build]
 command = "NEXT_PUBLIC_DISABLE_AUTH_GATE=true npx next build"
 
