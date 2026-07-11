@@ -8,7 +8,7 @@ import { Button } from "@/components/login-ui/button";
 import { Input } from "@/components/login-ui/input";
 import { Label } from "@/components/login-ui/label";
 import { Checkbox } from "@/components/login-ui/checkbox";
-import { getSitePassword, setAuthenticated } from "@/lib/auth";
+import { getSiteEmail, getSitePassword, setAuthenticated } from "@/lib/auth";
 
 export function LoginForm() {
   const router = useRouter();
@@ -23,14 +23,18 @@ export function LoginForm() {
     setIsLoading(true);
 
     const form = event.currentTarget;
+    const email = new FormData(form).get("email")?.toString() ?? "";
     const password = new FormData(form).get("password")?.toString() ?? "";
     const remember = form.elements.namedItem("remember") instanceof HTMLInputElement
       ? (form.elements.namedItem("remember") as HTMLInputElement).checked
       : false;
 
     window.setTimeout(() => {
-      if (password !== getSitePassword()) {
-        setError("Incorrect password. Check README for twin demo credentials.");
+      const emailMatches = email.trim().toLowerCase() === getSiteEmail().toLowerCase();
+      const passwordMatches = password === getSitePassword();
+
+      if (!emailMatches || !passwordMatches) {
+        setError("Incorrect email or password. Check README for twin demo credentials.");
         setIsLoading(false);
         return;
       }
@@ -63,6 +67,7 @@ export function LoginForm() {
             type="email"
             placeholder="you@example.com"
             autoComplete="email"
+            required
           />
         </div>
 

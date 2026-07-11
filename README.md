@@ -16,23 +16,24 @@ npm run build
 
 ## Login (twin access)
 
-The twin is protected by a simple password gate. Unauthenticated visitors are redirected to `/login`.
+The twin is protected by a simple email + password gate. Unauthenticated visitors are redirected to `/login`.
 
 | Setting | Value |
 |--------|--------|
-| Env var | `NEXT_PUBLIC_SITE_PASSWORD` |
-| Default password | `twin-demo` |
+| Email env var | `NEXT_PUBLIC_SITE_EMAIL` |
+| Password env var | `NEXT_PUBLIC_SITE_PASSWORD` |
+| Default email | `admin@admin.com` |
+| Default password | `1234567890` |
 | Remember me | 30-day cookie + sessionStorage |
 
 ```bash
-# Custom password (rebuild required for static export)
-echo 'NEXT_PUBLIC_SITE_PASSWORD=your-secret' >> .env.local
+# Custom credentials (rebuild required for static export)
+echo 'NEXT_PUBLIC_SITE_EMAIL=admin@admin.com' >> .env.local
+echo 'NEXT_PUBLIC_SITE_PASSWORD=1234567890' >> .env.local
 npm run build
 ```
 
-**Security note:** With `output: "export"`, the password is embedded in the client bundle at build time. This is suitable for staging/twin demos only — not production security. For stronger protection on Cloudflare Pages, use [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/) in front of the deployment.
-
-Email on the login form is cosmetic; only the password is validated.
+**Security note:** With `output: "export"`, credentials are embedded in the client bundle at build time. This is suitable for staging/twin demos only — not production security. For stronger protection on Cloudflare Pages, use [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/) in front of the deployment.
 
 ## Notes
 

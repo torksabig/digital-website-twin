@@ -2,8 +2,12 @@ export const AUTH_COOKIE = "twin-auth";
 export const AUTH_STORAGE_KEY = "twin-auth";
 export const REMEMBER_DAYS = 30;
 
+export function getSiteEmail(): string {
+  return process.env.NEXT_PUBLIC_SITE_EMAIL ?? "admin@admin.com";
+}
+
 export function getSitePassword(): string {
-  return process.env.NEXT_PUBLIC_SITE_PASSWORD ?? "twin-demo";
+  return process.env.NEXT_PUBLIC_SITE_PASSWORD ?? "1234567890";
 }
 
 export function isAuthenticated(): boolean {
