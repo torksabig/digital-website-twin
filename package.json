@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "WATCHPACK_POLLING=true next dev -p 3210 -H 127.0.0.1",
-    "build": "next build",
+    "build": "NEXT_PUBLIC_DISABLE_AUTH_GATE=true next build",
     "start": "next start -p 3210",
     "lint": "next lint",
     "serve:out": "python3 -m http.server 3210 --bind 127.0.0.1 --directory out",
