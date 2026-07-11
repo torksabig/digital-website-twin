@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PT_Serif, Source_Sans_3 } from "next/font/google";
+import { AuthGate } from "@/components/AuthGate";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { SITE_NAME, SITE_URL } from "@/lib/seo/config";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/json-ld";
@@ -44,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sourceSans.variable} ${ptSerif.variable}`}>
       <body className="bg-black font-sans text-white antialiased">
         <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-        {children}
+        <AuthGate>{children}</AuthGate>
       </body>
     </html>
   );

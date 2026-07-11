@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+.login-theme {
+  color-scheme: light;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+
+  background: var(--background);
+  color: var(--foreground);
+  min-height: 100svh;
+}
+
+.login-theme * {
+  border-color: var(--border);
+}
+
+.login-theme .border-input {
+  border-color: var(--input);
+}
+
+.login-theme .bg-primary {
+  background-color: var(--primary);
+}
+
+.login-theme .text-primary-foreground {
+  color: var(--primary-foreground);
+}
+
+.login-theme .text-muted-foreground {
+  color: var(--muted-foreground);
+}
+
+.login-theme .text-foreground {
+  color: var(--foreground);
+}
+
+.login-theme .bg-background {
+  background-color: var(--background);
+}
+
+.login-theme .hover\:text-foreground:hover {
+  color: var(--foreground);
+}
+
+.login-theme .focus-visible\:border-ring:focus-visible {
+  border-color: var(--ring);
+}
+
+.login-theme .focus-visible\:ring-ring\/50:focus-visible {
+  --tw-ring-color: color-mix(in oklab, var(--ring) 50%, transparent);
+}
+
+.login-theme .text-primary-foreground\/70 {
+  color: color-mix(in oklab, var(--primary-foreground) 70%, transparent);
+}
+
+.login-theme .text-primary-foreground\/60 {
+  color: color-mix(in oklab, var(--primary-foreground) 60%, transparent);
+}
+
+.login-theme .text-destructive {
+  color: var(--destructive);
+}
+
+.login-theme .border-destructive\/30 {
+  border-color: color-mix(in oklab, var(--destructive) 30%, transparent);
+}
+
+.login-theme .bg-destructive\/5 {
+  background-color: color-mix(in oklab, var(--destructive) 5%, transparent);
+}
